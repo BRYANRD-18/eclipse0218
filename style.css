@@ -11,7 +11,7 @@ body {
 }
 
 .portada p, h1{
-	font-family:cursive;
+	font-family:'Courier New', Courier, monospace;
 }
 
 
@@ -19,7 +19,7 @@ body {
 /* ? ----- PORTADA ----- */
 .portada {
 	width: 100%;
-	background: #FC7DA2  ;
+	background: rgb(236, 67, 115)  ;
 
 	min-height: 100vh;
 	top: 0;
