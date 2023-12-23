@@ -1,9 +1,9 @@
 simplyCountdown('#Cuenta', {
-    year: 2023, // required
-    month: 8, // required
-    day: 3, // required
-    hours: 5, // Default is 0 [0-23] integer
-    minutes: 37, // Default is 0 [0-59] integer
+    year: 2024, // required
+    month: 5, // required
+    day: 11, // required
+    hours: 0, // Default is 0 [0-23] integer
+    minutes: 0, // Default is 0 [0-59] integer
     seconds: 0, // Default is 0 [0-59] integer
     words: { //words displayed into the countdown
         days: { singular: 'Dia', plural: 'Dias' },
@@ -22,7 +22,7 @@ simplyCountdown('#Cuenta', {
     amountClass: 'simply-amount', // amount css class
     wordClass: 'simply-word', // word css class
     zeroPad: false,
-    countUp: true,
+    countUp: false,
 });
 
 // Also, you can init with already existing Javascript Object.
@@ -31,3 +31,4 @@ simplyCountdown(myElement, { /* options */ });
 
 let multipleElements = document.querySelectorAll('.my-countdown');
 simplyCountdown(multipleElements, { /* options */ });
+
